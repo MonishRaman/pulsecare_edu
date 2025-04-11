@@ -275,7 +275,7 @@ const Contact: React.FC = () => {
                     <Mail className="h-5 w-5 text-health-blue mr-3 mt-1" />
                     <div>
                       <h3 className="font-medium">Email</h3>
-                      <p className="text-muted-foreground">shaswatmishra5533@gmail.com  hariradhi2006@gmail.com </p>
+                      <p className="text-muted-foreground">monishr608@gmail.com </p>
                     </div>
                   </div>
 
@@ -283,7 +283,7 @@ const Contact: React.FC = () => {
                     <Phone className="h-5 w-5 text-health-red mr-3 mt-1" />
                     <div>
                       <h3 className="font-medium">Phone</h3>
-                      <p className="text-muted-foreground">+91 80 1234 5678 <br></br>+919692677806</p>
+                      <p className="text-muted-foreground">+91 82968 63444<br></br>+91 97424 41570</p>
                     </div>
                   </div>
 

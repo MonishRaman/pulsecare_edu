@@ -79,7 +79,7 @@ const Categories: React.FC = () => {
       <footer className="bg-secondary py-10 px-4">
         <div className="container mx-auto max-w-6xl">
           <p className="text-sm text-muted-foreground text-center">
-            © {new Date().getFullYear()} HealthGuide. All rights reserved.
+            © {new Date().getFullYear()} Pulse Care. All rights reserved.
           </p>
         </div>
       </footer>

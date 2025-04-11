@@ -9,7 +9,6 @@ import NotFound from "./pages/NotFound";
 import DiseaseDetail from "./pages/DiseaseDetail";
 import SearchResults from "./pages/SearchResults";
 import Categories from "./pages/Categories";
-import About from "./pages/About";
 import Contact from "./pages/Contact";
 
 const queryClient = new QueryClient();
@@ -25,7 +24,6 @@ const App = () => (
           <Route path="/disease/:id" element={<DiseaseDetail />} />
           <Route path="/search" element={<SearchResults />} />
           <Route path="/categories" element={<Categories />} />
-          <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

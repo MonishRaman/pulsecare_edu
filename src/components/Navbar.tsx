@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
       <div className="container flex h-16 items-center">
         <div className="flex items-center gap-2 font-semibold" onClick={handleHomeClick} role="button">
           <MediKit className="h-6 w-6 text-health-blue" />
-          <span className="text-xl font-semibold tracking-tight">HealthGuide</span>
+          <span className="text-xl font-semibold tracking-tight">Pulse Care</span>
         </div>
         <nav className="ml-auto flex gap-4 items-center">
           <Link to="/" className="px-4 py-2 text-sm font-medium transition-colors hover:text-primary">

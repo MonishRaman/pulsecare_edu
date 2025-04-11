@@ -152,7 +152,7 @@ const Index: React.FC = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="font-semibold text-lg mb-4">HealthGuide</h3>
+              <h3 className="font-semibold text-lg mb-4">Pulse Care</h3>
               <p className="text-sm text-muted-foreground">
                 A comprehensive resource for common diseases, symptoms, and basic treatments.
               </p>
@@ -174,7 +174,7 @@ const Index: React.FC = () => {
           </div>
           <div className="mt-8 pt-6 border-t border-muted">
             <p className="text-sm text-muted-foreground text-center">
-              © {new Date().getFullYear()} HealthGuide. All rights reserved.
+              © {new Date().getFullYear()} Pulse Care. All rights reserved.
             </p>
           </div>
         </div>

@@ -218,7 +218,7 @@ const DiseaseDetail: React.FC = () => {
       <footer className="bg-secondary py-8 px-4 mt-10">
         <div className="container mx-auto max-w-6xl">
           <p className="text-sm text-muted-foreground text-center">
-            © {new Date().getFullYear()} HealthGuide. This information is for educational purposes only.
+            © {new Date().getFullYear()} Pulse Care. This information is for educational purposes only.
           </p>
         </div>
       </footer>
