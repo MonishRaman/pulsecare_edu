@@ -70,7 +70,7 @@ import NotFound from "./pages/NotFound";
 import DiseaseDetail from "./pages/DiseaseDetail";
 import SearchResults from "./pages/SearchResults";
 import Categories from "./pages/Categories";
-import Auth from "./pages/Auth";
+// import Auth from "./pages/Auth";
 import About from "./pages/About";
 import Contact from "./pages/Contact"; // Added Contact page
 
@@ -88,7 +88,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/auth" element={<Auth />} />
+          {/* <Route path="/auth" element={<Auth />} /> */}
           <Route path="/" element={<ProtectedRoute><Index /></ProtectedRoute>} />
           <Route path="/disease/:id" element={<ProtectedRoute><DiseaseDetail /></ProtectedRoute>} />
           <Route path="/search" element={<ProtectedRoute><SearchResults /></ProtectedRoute>} />
